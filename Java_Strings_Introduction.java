@@ -10,7 +10,7 @@ public class Solution {
         String A=sc.next();
         String B=sc.next();
         System.out.println(B.length()+A.length());
-        if(B.length()>A.length()){
+        if(A.compareTo(B)>0){
             System.out.println("Yes");}
         else{
             System.out.println("No");}
@@ -25,3 +25,4 @@ public class Solution {
         System.out.println(f+" "+d);
     }
 }
+
